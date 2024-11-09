@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集 - 清晖影像</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 自定义CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+    <!-- 背景动画 -->
+    <div class="animated-background">
+        <div class="light-beam"></div>
+        <div class="particles"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">清晖影像</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">
+                <i class="fas fa-home"></i>
+                <span>首页</span>
+            </a>
+            <a href="about.html">
+                <i class="fas fa-user"></i>
+                <span>关于</span>
+            </a>
+            <a href="portfolio.html" class="active">
+                <i class="fas fa-camera"></i>
+                <span>作品集</span>
+            </a>
+            <a href="contact.html">
+                <i class="fas fa-envelope"></i>
+                <span>联系</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- 作品集页面内容 -->
+    <main class="portfolio-main">
+        <!-- 作品分类导航 -->
+        <div class="portfolio-nav reveal-text">
+            <button class="filter-btn active" data-category="all">全部作品</button>
+            <button class="filter-btn" data-category="wedding">婚礼跟拍</button>
+            <button class="filter-btn" data-category="hanfu">汉服写真</button>
+            <button class="filter-btn" data-category="engagement">订婚领证</button>
+            <button class="filter-btn" data-category="commercial">商业活动</button>
+        </div>
+
+        <!-- 作品展示网格 -->
+        <div class="portfolio-grid">
+            <!-- 婚礼跟拍 -->
+            <div class="portfolio-item reveal-card" data-category="wedding">
+                <img src="images/1.png" alt="婚礼跟拍">
+                <div class="portfolio-overlay">
+                    <h3>幸福时刻</h3>
+                    <p>婚礼跟拍</p>
+                </div>
+            </div>
+            <!-- 商业活动 -->
+            <div class="portfolio-item reveal-card" data-category="commercial">
+                <img src="images/2.jpg" alt="商业活动">
+                <div class="portfolio-overlay">
+                    <h3>品牌展示</h3>
+                    <p>商业活动</p>
+                </div>
+            </div>
+            <!-- 汉服写真 -->
+            <div class="portfolio-item reveal-card" data-category="hanfu">
+                <img src="images/3.jpg" alt="汉服写真">
+                <div class="portfolio-overlay">
+                    <h3>古韵新姿</h3>
+                    <p>汉服写真</p>
+                </div>
+            </div>
+            <!-- 订婚领证 -->
+            <div class="portfolio-item reveal-card" data-category="engagement">
+                <img src="images/4.jpg" alt="订婚领证">
+                <div class="portfolio-overlay">
+                    <h3>甜蜜时光</h3>
+                    <p>订婚领证</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="social-links reveal-text">
+            <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="copyright">&copy; 2024 清晖影像. 保留所有权利.</p>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html> 

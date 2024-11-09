@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>清晖影像 - 专业摄影服务</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 自定义CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- 背景动画 -->
+    <div class="animated-background">
+        <div class="light-beam"></div>
+        <div class="particles"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">清晖影像</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="active">
+                <i class="fas fa-home"></i>
+                <span>首页</span>
+            </a>
+            <a href="about.html">
+                <i class="fas fa-user"></i>
+                <span>关于</span>
+            </a>
+            <a href="portfolio.html">
+                <i class="fas fa-camera"></i>
+                <span>作品集</span>
+            </a>
+            <a href="contact.html">
+                <i class="fas fa-envelope"></i>
+                <span>联系</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="section hero">
+        <div class="hero-inner">
+            <div class="hero-content reveal-text">
+                <h1>清晖影像</h1>
+                <p class="subtitle">专业摄影服务</p>
+                <p class="description">用独特的视角捕捉每个珍贵时刻，为您留下永恒的回忆</p>
+            </div>
+            <div class="hero-image floating">
+                <div class="image-frame">
+                    <img src="images/logo.jpg" alt="清晖影像 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>向下滚动</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 照片展示区域 -->
+    <section class="section carousel-section">
+        <h2 class="section-title reveal-text">摄影作品</h2>
+        <div class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide reveal-card" data-title="订婚领证">
+                    <div class="image-overlay"></div>
+                    <img src="images/4.jpg" alt="订婚领证">
+                    <div class="slide-content">
+                        <h3>订婚领证</h3>
+                        <p>记录人生重要时刻</p>
+                    </div>
+                </div>
+                <div class="carousel-slide reveal-card" data-title="汉服写真">
+                    <div class="image-overlay"></div>
+                    <img src="images/3.jpg" alt="汉服写真">
+                    <div class="slide-content">
+                        <h3>汉服写真</h3>
+                        <p>演绎东方古典之美</p>
+                    </div>
+                </div>
+                <div class="carousel-slide reveal-card" data-title="婚礼跟拍">
+                    <div class="image-overlay"></div>
+                    <img src="images/1.png" alt="婚礼跟拍">
+                    <div class="slide-content">
+                        <h3>婚礼跟拍</h3>
+                        <p>捕捉幸福瞬间</p>
+                    </div>
+                </div>
+                <div class="carousel-slide reveal-card" data-title="商业活动">
+                    <div class="image-overlay"></div>
+                    <img src="images/2.jpg" alt="商业活动">
+                    <div class="slide-content">
+                        <h3>商业活动</h3>
+                        <p>专业商业摄影服务</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="social-links reveal-text">
+            <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="copyright">&copy; 2024 清晖影像. 保留所有权利.</p>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/carousel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
